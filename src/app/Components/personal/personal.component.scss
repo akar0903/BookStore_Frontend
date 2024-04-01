@@ -1,0 +1,51 @@
+.toolbar {
+    height: 8vh;
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+    background-color: #A03037;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    //background-color: red;
+    gap: 8px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.book {
+    color: white;
+}
+
+.image1 {
+    margin-left: 25px;
+}
+
+.text-box input {
+    height: 25px;
+    width: 480px;
+    margin-bottom: 2px;
+}
+
+.person {
+    margin-left: 300px;
+    color: white;
+}
+
+.cart {
+    margin-left: 40px;
+    color: white;
+}
+
+.home {
+    margin-top: 20px;
+    margin-left: 120px;
+}
