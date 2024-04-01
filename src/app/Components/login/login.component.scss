@@ -55,12 +55,11 @@
             display: flex;
         }
         
-        .signup {
-            margin-left: 100px;
-            margin-top: 29px;
-            font-size: 20px;
-        }
-        
+        // .signup {
+        //     margin-left: 100px;
+        //     margin-top: 29px;
+        //     font-size: 20px;
+        // }
         .email {
             margin-top: 10px;
             margin-left: 50px;
@@ -136,4 +135,74 @@
             color: white;
             height: 30px;
             width: 125px;
+        }
+        
+        //tab 2
+        .fname {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 60px;
+        }
+        
+        .text-fnamee input {
+            height: 20px;
+            width: 250px;
+            margin-bottom: 5px;
+        }
+        
+        .Ema {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 60px;
+        }
+        
+        .text-emaill input {
+            height: 20px;
+            width: 250px;
+        }
+        
+        .pa {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 60px;
+        }
+        
+        .text-pa input {
+            height: 20px;
+            width: 250px;
+        }
+        
+        .mob {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-left: 60px;
+        }
+        
+        .text-moo input {
+            height: 20px;
+            width: 250px;
+        }
+        
+        .butt {
+            //     margin-left: 155px;
+            width: 260px;
+            height: 30px;
+            //     display: flex;
+            //     justify-content: center;
+            //     align-items: center;
+            //     background-color: aqua;
+            background-color: #A03037;
+            color: white;
+            cursor: pointer;
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+        
+        .buttonn {
+            margin-top: 10px;
+            // margin-left: 85px;
+            // margin-right: 20px; //width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
