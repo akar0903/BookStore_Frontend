@@ -9,21 +9,23 @@ import { PersonalComponent } from './Components/personal/personal.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
+import { HomeComponent } from './Components/home/home.component';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
     AppComponent,
     ForgetPasswordComponent,
     LoginComponent,
-    PersonalComponent
+    PersonalComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatButtonModule,
-    MatTabsModule
-    
-    
+    MatTabsModule,
+    MatExpansionModule
   ],
   providers: [
     provideClientHydration(),
