@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ForgetPasswordComponent } from './Components/forget-password/forget-password.component';
@@ -11,6 +10,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import { HomeComponent } from './Components/home/home.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { MyorderComponent } from './Components/myorder/myorder.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     ForgetPasswordComponent,
     LoginComponent,
     PersonalComponent,
-    HomeComponent
+    HomeComponent,
+    MyorderComponent
   ],
   imports: [
     BrowserModule,
