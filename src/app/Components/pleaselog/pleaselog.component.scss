@@ -1,0 +1,83 @@
+.toolbar {
+    height: 8vh;
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+    background-color: #A03037;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    //background-color: red;
+    gap: 8px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.book {
+    color: white;
+}
+
+.image1 {
+    margin-left: 25px;
+}
+
+.text-box input {
+    height: 25px;
+    width: 480px;
+    margin-bottom: 2px;
+}
+
+.person {
+    margin-left: 300px;
+    color: white;
+}
+
+.cart {
+    margin-left: 40px;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 30px;
+    font-style: bold;
+    margin-bottom: 10px;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    color: #9D9D9D;
+    margin-bottom: 30px;
+}
+
+.logimage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+.but button.loginsign {
+    /* Change height and width of the button */
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border-color: #A03037;
+    color: #A03037;
+    cursor: pointer;
+}

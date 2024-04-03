@@ -13,6 +13,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { MyorderComponent } from './Components/myorder/myorder.component';
 import { OrderComponent } from './Components/order/order.component';
 import { MywishlistComponent } from './Components/mywishlist/mywishlist.component';
+import { PleaselogComponent } from './Components/pleaselog/pleaselog.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { MywishlistComponent } from './Components/mywishlist/mywishlist.componen
     MyorderComponent,
     OrderComponent,
     MywishlistComponent,
+    PleaselogComponent,
   ],
   imports: [
     BrowserModule,
