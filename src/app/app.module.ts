@@ -11,6 +11,9 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { HomeComponent } from './Components/home/home.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { MyorderComponent } from './Components/myorder/myorder.component';
+import { OrderComponent } from './Components/order/order.component';
+import { MywishlistComponent } from './Components/mywishlist/mywishlist.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +22,9 @@ import { MyorderComponent } from './Components/myorder/myorder.component';
     LoginComponent,
     PersonalComponent,
     HomeComponent,
-    MyorderComponent
+    MyorderComponent,
+    OrderComponent,
+    MywishlistComponent,
   ],
   imports: [
     BrowserModule,
