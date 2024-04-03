@@ -1,0 +1,183 @@
+.start {
+    display: flex;
+    margin-left: 160px;
+}
+
+.home {
+    margin-right: 2px;
+}
+
+.smallimg {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+.small img {
+    width: 30px;
+}
+
+.small1 img {
+    width: 30px;
+}
+
+.bigbox {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.bigbox img {
+    margin-top: 25px;
+    height: 250px;
+    width: 250px;
+}
+
+.butto {
+    margin-left: 190px;
+    display: flex;
+}
+
+.wishlist {
+    margin-left: 20px;
+}
+
+.butto button.notify {
+    height: 40px;
+    width: 143px;
+    background-color: #A03037;
+    color: white;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainl {
+    height: 100vh;
+    width: 40%;
+}
+
+.mainr {
+    display: flex;
+    margin-left: 30px;
+    height: 100vh;
+    width: 50%;
+}
+
+.content {
+    font-size: 20px;
+    margin-top: 55px;
+    font-weight: bold;
+    font: normal normal normal 28px/37px Roboto;
+}
+
+.author {
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #878787;
+    font: normal normal normal 18px/24px Roboto;
+}
+
+.rating {
+    background-color: green;
+    color: white;
+    margin-right: 16vw;
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    height: 22px;
+    margin-bottom: 5px;
+}
+
+.rating p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.ratnum {
+    display: flex;
+}
+
+.rate {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ion {
+    border-top: 1px solid;
+    width: 500px;
+    border-bottom: 1px solid;
+}
+
+.lore {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #373434;
+    font: normal normal normal 12px/16px Roboto;
+    margin-bottom: 20px;
+}
+
+.detail {
+    font: normal normal normal 15px/20px Roboto;
+    margin-top: 20px;
+    color: #878787;
+}
+
+.feedback {
+    font: normal normal normal 18px/24px Roboto;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.overall {
+    border: 1px solid red;
+    width: 500px;
+    height: 200px;
+    background-color: #F5F5F5;
+    margin-bottom: 20px;
+}
+
+.overallr {
+    color: #0A0102;
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.stars {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    color: #707070;
+    display: flex;
+    gap: 5%;
+}
+
+.review {
+    margin-left: 35px;
+}
+
+.review input {
+    margin-bottom: 17px;
+    width: 400px;
+    height: 50px;
+}
+
+.subbut button.sub {
+    margin-left: 420px;
+    background-color: #3371B5;
+    color: white;
+    cursor: pointer;
+}

@@ -14,6 +14,8 @@ import { MyorderComponent } from './Components/myorder/myorder.component';
 import { OrderComponent } from './Components/order/order.component';
 import { MywishlistComponent } from './Components/mywishlist/mywishlist.component';
 import { PleaselogComponent } from './Components/pleaselog/pleaselog.component';
+import { MycartComponent } from './Components/mycart/mycart.component';
+import { ViewbookComponent } from './Components/viewbook/viewbook.component';
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import { PleaselogComponent } from './Components/pleaselog/pleaselog.component';
     OrderComponent,
     MywishlistComponent,
     PleaselogComponent,
+    MycartComponent,
+    ViewbookComponent,
   ],
   imports: [
     BrowserModule,
