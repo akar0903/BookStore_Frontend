@@ -48,4 +48,144 @@
 .home {
     margin-top: 20px;
     margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.per {
+    display: flex;
+    margin-left: 160px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.edit {
+    margin-left: 20px;
+    font-size: 15px;
+    color: darkred;
+}
+
+.all {
+    margin-left: 160px;
+}
+
+.textt {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.textt input {
+    width: 500px;
+    height: 30px;
+}
+
+.address {
+    margin-top: 30px;
+    margin-left: 160px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.new {
+    margin-left: 210px;
+    border-color: #A03037;
+    color: #A03037;
+    background-color: white;
+    cursor: pointer;
+}
+
+.work {
+    display: flex;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+
+.edit1 {
+    margin-left: 40px;
+}
+
+.details {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.work1 {
+    font-weight: bold;
+}
+
+.edit1 {
+    color: #A03037;
+}
+
+.aaa {
+    display: flex;
+    margin-left: 160px;
+    font-weight: bold;
+}
+
+.texttt input {
+    display: flex;
+    margin-left: 160px;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.both {
+    display: flex;
+    margin-left: 160px;
+}
+
+.state {
+    margin-left: 14px;
+    font-weight: bold;
+}
+
+.cityt input {
+    margin-left: 1px;
+    width: 230px;
+}
+
+.statet input {
+    margin-left: 1px;
+    width: 250px;
+}
+
+.type {
+    margin-left: 160px;
+    font-weight: bold;
+}
+
+.options {
+    display: flex;
+    color: #A03037;
+}
+
+.options2 {
+    margin-left: 60px;
+}
+
+.options3 {
+    margin-left: 60px;
+}
+
+.city {
+    font-weight: bold;
+}
+
+.submitb {
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.submitb button {
+    width: 180px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
 }
