@@ -1,0 +1,74 @@
+.im {
+    display: flex;
+    justify-content: center;
+}
+
+.im img {
+    margin-top: 70px;
+}
+
+.firstline {
+    display: flex;
+    justify-content: center;
+    color: #333232;
+}
+
+.secondline {
+    display: flex;
+    justify-content: center;
+    color: #333232;
+}
+
+.thirdline {
+    display: flex;
+    justify-content: center;
+    color: #333232;
+    margin-bottom: 20px;
+}
+
+.bigbox {
+    width: 700px;
+    height: 100px;
+    border: 1px solid;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.smallbox1 {
+    width: 700px;
+    height: 40px;
+    border: #DCDCDC;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+}
+
+.us {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailus {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.contactus {
+    margin-top: 10px;
+}
+
+.address {
+    margin-top: 10px;
+    margin-right: 70px;
+}
+
+.shopping {
+    display: flex;
+    justify-content: center;
+}
+
+.shopping .cart {
+    width: 200px;
+    height: 50px;
+    background-color: #3371B5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
