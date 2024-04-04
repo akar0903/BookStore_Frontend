@@ -1,0 +1,208 @@
+.optionss {
+    display: flex;
+    margin-left: 140px;
+    margin-bottom: 30px;
+}
+
+.cart {
+    color: #0A0102;
+    font: normal normal normal 12px/16px Roboto;
+}
+
+.home {
+    color: #9D9D9D;
+    font: normal normal normal 12px/16px Roboto;
+}
+
+.item {
+    width: 700px;
+    height: 200px;
+    border: 1px solid;
+    margin-left: 140px;
+}
+
+.heading {
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #0A0102;
+    font: normal normal medium 18px/24px Roboto;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content img {
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    display: flex;
+}
+
+.bookname {
+    margin-left: 40px;
+    color: #0A0102;
+    font: normal normal normal 14px/17px Lato;
+}
+
+.authorname {
+    margin-top: 10px;
+    color: #9D9D9D;
+    font: normal normal normal 10px/12px Lato;
+}
+
+.rate {
+    display: flex;
+    margin-top: 15px;
+    color: #0A0102;
+    font: normal normal bold 15px/18px Lato;
+}
+
+.orrate {
+    margin-left: 10px;
+    color: #9D9D9D;
+    font: normal normal normal 9px/11px Lato;
+    font-size: 10px;
+}
+
+.minus {
+    margin-top: 20px;
+}
+
+.actualq {
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.quantity {
+    display: flex;
+}
+
+.plus {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.remove {
+    margin-top: 23px;
+    margin-left: 25px;
+    font: normal normal normal 12px/15px Lato;
+    color: #0A0102;
+}
+
+.main {
+    height: 450px;
+    width: 700px;
+    border: 1px solid;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.customerdet {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #333232;
+    font: normal normal medium 18px/24px Roboto;
+    font-size: 20px;
+}
+
+.custnew {
+    display: flex;
+}
+
+.addnew {
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+.addnew .new {
+    background-color: white;
+    color: darkred;
+    border-color: #A03037;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.fullname {
+    margin-left: 60px;
+    color: #0A0102;
+}
+
+.fulltext {
+    margin-top: 10px;
+}
+
+.fulltext input {
+    height: 40px;
+    width: 260px;
+}
+
+.mobiletext {
+    margin-top: 10px;
+}
+
+.namenumber {
+    display: flex;
+}
+
+.mobiletext input {
+    height: 40px;
+    width: 260px;
+}
+
+.mobile {
+    margin-left: 20px;
+}
+
+.add {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.addtext input {
+    width: 550px;
+    height: 75px;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+.addd {
+    margin-bottom: 15px;
+}
+
+.type {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.options {
+    margin-left: -5px;
+    gap: 3%;
+}
+
+.itemm {
+    margin-top: 20px;
+    width: 700px;
+    height: 200px;
+    border: 1px solid;
+    margin-left: 140px;
+}
+
+.checkout {
+    margin-left: 540px;
+}
+
+.checkout .check {
+    background-color: #3371B5;
+    color: white;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
