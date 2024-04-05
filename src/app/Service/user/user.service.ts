@@ -24,4 +24,13 @@ export class UserService {
     }
     return this.httpservice.postService('https://localhost:44307/api/User/Reg',Data,false,head);
   }
+  forget(reqData: any) {
+    let header = {
+      headers: new HttpHeaders({
+        'Content-type': 'application/',
+      }),
+    };
+    return this.httpservice.postService(
+      'https://localhost:44307/api/User/forget?Email=' + reqData.emailId,{},false,header);
+  }
 }
