@@ -14,7 +14,10 @@ const routes: Routes = [
   {path:'forgett',component:ForgetPasswordComponent},
   {path:'log',component:LoginComponent},
   {path:'personal',component:PersonalComponent},
-  {path:'home',component:HomeComponent},
+  {path:'home',component:HomeComponent,
+children:[
+  {path:'log',component:LoginComponent},
+]},
   {path:'order',component:MyorderComponent},
   {path:'orderr',component:OrderComponent},
   {path:'wish',component:MywishlistComponent},

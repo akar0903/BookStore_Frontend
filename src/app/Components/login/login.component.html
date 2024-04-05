@@ -9,78 +9,76 @@
 <div class="second">
     <mat-tab-group>
         <mat-tab label="LOGIN">
-            <div class="next">
-                <div class="email">Email Id
-                    <div class="text-box">
-                        <input type="text" placeholder="Enter your email">
+            <form class="loginform" [formGroup]="loginform" (ngSubmit)="LoginSubmit()">
+                <div class="next">
+                    <div class="email">Email Id
+                        <div class="text-box">
+                            <input type="text" placeholder="Enter your email" formControlName="email">
+                        </div>
+                    </div>
+                    <div class="password">Password
+                        <div class="text-box1">
+                            <input type="text" placeholder="Enter your Password" formControlName="password">
+                        </div>
+                    </div>
+                    <div class="forget">Forget Password?</div>
+                    <div class="button">
+                        <button class="but" type="submit">
+                        Login
+                    </button>
+                    </div>
+                    <div class="or">
+                        OR
+                    </div>
+                    <div class="fg">
+                        <button class="facebook" type="button">
+                    Facebook
+                    </button>
+                        <button class="google" type="button">
+                        Google
+                    </button>
                     </div>
                 </div>
-                <div class="password">Password
-                    <div class="text-box1">
-                        <input type="text" placeholder="Enter your Password">
-                    </div>
-                </div>
-                <div class="forget">Forget Password?</div>
-                <div class="button">
-                    <button class="but">
-                    Login
-                </button>
-                </div>
-                <div class="or">
-                    OR
-                </div>
-                <div class="fg">
-                    <button class="facebook">
-                Facebook
-                </button>
-                    <button class="google">
-                    Google 
-                </button>
-                </div>
-            </div>
+            </form>
         </mat-tab>
 
         <mat-tab label="SIGNUP">
-            <div class="fname">Full Name
-                <div class="text-fname">
-                    <div class="text-fnamee">
-                        <input type="text" placeholder="Enter your Full Name">
+            <form class="signupform" [formGroup]="signupform" (ngSubmit)="signup()">
+                <div class="fname ">Full Name
+                    <div class="text-fname ">
+                        <div class="text-fnamee ">
+                            <input type="text " placeholder="Enter your Full Name " formControlName="fullname">
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="Ema">Email ID
-                <div class="text-email">
-                    <div class="text-emaill">
-                        <input type="text" placeholder="Enter your Email">
+                <div class="Ema ">Email ID
+                    <div class="text-email ">
+                        <div class="text-emaill ">
+                            <input type="text " placeholder="Enter your Email " formControlName="email">
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="pa">Password
-                <div class="text-pa">
-                    <div class="text-paa">
-                        <input type="text" placeholder="Enter your Password">
+                <div class="pa ">Password
+                    <div class="text-pa ">
+                        <div class="text-paa ">
+                            <input type="text " placeholder="Enter your Password " formControlName="password">
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="mob">Mobile Number
-                <div class="text-mo">
-                    <div class="text-moo">
-                        <input type="text" placeholder="Enter your Mobile Number">
+                <div class="mob ">Mobile Number
+                    <div class="text-mo ">
+                        <div class="text-moo ">
+                            <input type="text " placeholder="Enter your Mobile Number " formControlName="mobilenumber">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="buttonn">
-                <button class="butt">
-                SIGN UP
-            </button>
-            </div>
-
+                <div class="buttonn ">
+                    <button class="butt " (click)="signup()" type="submit">
+                    SIGN UP
+                </button>
+                </div>
+            </form>
         </mat-tab>
-
     </mat-tab-group>
-
 
 </div>

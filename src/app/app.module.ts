@@ -16,7 +16,9 @@ import { MywishlistComponent } from './Components/mywishlist/mywishlist.componen
 import { PleaselogComponent } from './Components/pleaselog/pleaselog.component';
 import { MycartComponent } from './Components/mycart/mycart.component';
 import { ViewbookComponent } from './Components/viewbook/viewbook.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,11 @@ import { ViewbookComponent } from './Components/viewbook/viewbook.component';
     AppRoutingModule,
     MatButtonModule,
     MatTabsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule
   ],
   providers: [
     provideClientHydration(),
