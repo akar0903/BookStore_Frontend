@@ -19,6 +19,7 @@ import { ViewbookComponent } from './Components/viewbook/viewbook.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { ResetpasswordComponent } from './Components/resetpassword/resetpassword.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     PleaselogComponent,
     MycartComponent,
     ViewbookComponent,
+    ResetpasswordComponent,
   ],
   imports: [
     BrowserModule,

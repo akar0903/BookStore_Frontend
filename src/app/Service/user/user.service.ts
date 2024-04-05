@@ -30,7 +30,13 @@ export class UserService {
         'Content-type': 'application/',
       }),
     };
-    return this.httpservice.postService(
-      'https://localhost:44307/api/User/forget?Email=' + reqData.emailId,{},false,header);
+    return this.httpservice.postService('https://localhost:44307/api/User/forget?Email=' + reqData.emailId,{},false,header);
+  }
+  reset(reqData: any, token: any) {
+    let header = {
+      headers: new HttpHeaders({'Content-type': 'application/json',Authorization: 'Bearer ' + token,}),
+    };
+    return this.httpservice.postServiceReset('https://localhost:44307/api/User/reset',reqData,true,header
+    );
   }
 }
