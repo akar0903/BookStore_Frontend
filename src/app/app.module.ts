@@ -20,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { ResetpasswordComponent } from './Components/resetpassword/resetpassword.component';
+import { BookComponent } from './Components/book/book.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ResetpasswordComponent } from './Components/resetpassword/resetpassword
     MycartComponent,
     ViewbookComponent,
     ResetpasswordComponent,
+    BookComponent,
   ],
   imports: [
     BrowserModule,

@@ -11,6 +11,7 @@ import { PleaselogComponent } from './Components/pleaselog/pleaselog.component';
 import { MycartComponent } from './Components/mycart/mycart.component';
 import { ViewbookComponent } from './Components/viewbook/viewbook.component';
 import { ResetpasswordComponent } from './Components/resetpassword/resetpassword.component';
+import { BookComponent } from './Components/book/book.component';
 const routes: Routes = [
   {path:'forgett',component:ForgetPasswordComponent},
   {path:'log',component:LoginComponent},
@@ -25,7 +26,8 @@ children:[
   {path:'pleaselog',component:PleaselogComponent},
   {path:'mycart',component:MycartComponent},
   {path:'viewbook',component:ViewbookComponent},
-  {path:'resett',component:ResetpasswordComponent}
+  {path:'resett',component:ResetpasswordComponent},
+  {path:'book',component:BookComponent}
  
 ];
 @NgModule({
